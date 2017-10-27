@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			#container {
+				display: flex;
+				/*flex-flow: row wrap;*/
+				/*flex-flow: column nowrap;*/
+				flex-flow: column-reverse nowrap; 
+				
+				border: 1px solid red;
+				
+				width: 400px; height: 400px;
+			}
+			
+			.items {
+				height: 100px;
+				width: 100px;
+				margin: 10px;
+				background-color: darkseagreen;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="container">
+
+			<div class="items">1</div>
+			<div class="items">2</div>
+			<div class="items">3</div>
+			<div class="items">4</div>
+			<div class="items">5</div>
+
+		</div>
+
+	</body>
+
+</html>
