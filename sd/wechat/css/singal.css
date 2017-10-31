@@ -24,8 +24,8 @@
 
 /* singal_level : start */
 #singal_level {
-	height: 100%;
-	width: 44px;
+	height: 84%;
+	width: 42px;
 	margin-left: 4px;
 }
 #singal_level div {
@@ -37,16 +37,16 @@
 	height: 8px;
 }
 #singal_level div:nth-child(2) {
-	height: 11px;
+	height: 10px;
 }
 #singal_level div:nth-child(3) {
-	height: 14px;
+	height: 12px;
 }
 #singal_level div:nth-child(4) {
-	height: 17px;
+	height: 14px;
 }
 #singal_level div:nth-child(5) {
-	height: 20px;
+	height: 16px;
 }
 /* singal_level : end */
 
@@ -58,9 +58,49 @@
 }
 
 .singal_weak {
-	border: 1px solid white;
+	border: 1px solid  white;
+	
 	border-radius: 1px 1px 0px 0px;	
 }
 /*  singal   strong and weak  :  endt  */
 
+/* singal_operator : start */
+#singal_operator {
+	height: 100%;
+	width: 70px;
+}
+/* singal_operator : end */
 
+/*   singal-font */ 
+.singal-font {
+	font-weight: 300;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 80%;
+}
+
+
+
+
+/* battery : start */
+#battery {
+	width: 36px;
+	height: 13px;
+	border: 1px solid white;
+	margin-left: 3px;
+}
+
+#battery_body {
+	width: 10px;
+	height: 13px;
+	background-color: red;
+}
+
+#battery_header {
+	height: 6px;
+	width: 2px;
+	background-color: white;
+	margin-right: 6px;
+}
+
+/* battery : end */

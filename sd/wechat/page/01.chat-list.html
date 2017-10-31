@@ -24,18 +24,29 @@
 		<div id="container">
 			
 			<div id="signal" >
-				<div id="singal_left" >
-					<div id="singal_level" class="x-flex-around y-align-items-end  has-border">
+				<div id="singal_left" class="flex x-start y-items-center" >
+					<div id="singal_level" class="flex x-around y-items-end ">
 						<div class="singal_strong "></div>
 						<div class="singal_strong "></div>
 						<div class="singal_strong "></div>
 						<div class="singal_strong "></div>
 						<div class="singal_weak "></div>
 					</div>
+					
+					<div id="singal_operator" class=" singal-font flex x-center y-items-center">中国移动</div>
 				</div>
 				
-				<div id="singal_center" ></div>
-				<div id="singal_right" ></div>
+				<div id="singal_center" class=" singal-font flex x-center y-items-center " >11:15 AM</div>
+				
+				<div id="singal_right" class="  flex x-end y-items-center">
+					<div></div>
+					<div class="singal-font">10%</div>
+					<div id="battery" >
+						<div id="battery_body"></div>
+					</div>
+					<div id="battery_header"></div>
+					
+				</div>
 			</div>
 			
 			<div id="nav">nav</div>
@@ -94,3 +105,7 @@
 		
 	</body>
 </html>
+
+
+<script type="text/javascript" src="../js/lib/jquery-2.js" ></script>
+<script type="text/javascript" src="../js/singal.js" ></script>
