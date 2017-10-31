@@ -1,5 +1,66 @@
 #signal {
-	background-color: darkkhaki;
+	background-color: #212121;
 	width: 100%;
-	height: 40px;
+	height: 30px;
+	display: flex;   
 }
+
+#singal_left {
+	flex:3;
+	height: 100%;
+}
+
+#singal_center {
+	flex: 1.5;
+	height: 100%;
+}
+
+#singal_right {
+	flex:3;
+	height: 100%;
+}
+
+
+
+/* singal_level : start */
+#singal_level {
+	height: 100%;
+	width: 44px;
+	margin-left: 4px;
+}
+#singal_level div {
+	margin-bottom: 4px;
+	width: 4px;
+}
+
+#singal_level div:nth-child(1) {
+	height: 8px;
+}
+#singal_level div:nth-child(2) {
+	height: 11px;
+}
+#singal_level div:nth-child(3) {
+	height: 14px;
+}
+#singal_level div:nth-child(4) {
+	height: 17px;
+}
+#singal_level div:nth-child(5) {
+	height: 20px;
+}
+/* singal_level : end */
+
+/*  singal   strong and weak  :  start  */
+.singal_strong {
+	background-color: white;
+	border-radius: 1px 1px 0px 0px;
+	
+}
+
+.singal_weak {
+	border: 1px solid white;
+	border-radius: 1px 1px 0px 0px;	
+}
+/*  singal   strong and weak  :  endt  */
+
+

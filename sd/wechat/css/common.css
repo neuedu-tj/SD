@@ -6,3 +6,27 @@
 ::-webkit-scrollbar {
 	display: none;
 }
+
+.has-border {
+	border : 1px solid red;
+}
+
+
+.x-flex-start {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.x-flex-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.x-flex-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.y-align-items-end {
+	align-items: flex-end;
+}
