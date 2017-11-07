@@ -7,7 +7,7 @@
 		
 		
 		<meta charset="UTF-8">
-		<title></title>
+		<title>me.dev - wechat</title>
 		
 		<link rel="stylesheet" href="../css/common.css" />
 		<link rel="stylesheet" href="../css/container.css" />
@@ -38,9 +38,13 @@
 				
 				<div id="singal_center" class="singal-font flex x-center y-items-center">11:15 AM</div>
 				
-				<div id="singal_right" class="flex x-end y-items-center">
-					<div></div>
-					<div class="singal-font">10%</div>
+				<div id="singal_right" class="flex x-end y-items-center ">
+					<!-- 该层存放  例如蓝牙  定位  ....-->
+					<div id="singal_item" class="flex x-end y-items-center">
+						<div class="singal_items " style="background-image: url(../img/iconfont/singal/位置.svg); transform: scale(0.9);"></div>
+						<div class="singal_items " style="background-image: url(../img/iconfont/singal/蓝牙.svg); transform: scale(1.2);"></div>
+					</div>
+					<div class="singal-font ">10%</div>
 					<div id="battery" >
 						<div id="battery_body"></div>
 					</div>
@@ -49,13 +53,29 @@
 				</div>
 			</div>
 			
-			<div id="nav">nav</div>
+			<!-- nav : start -->
+			
+			<div id="nav">
+				
+				<div id="nav_left"></div>
+				
+				<div id="nav_center"></div>
+				
+				<div id="nav_right"></div>
+				
+			</div>
+			
+			<!-- nav : end -->
 			
 			<div id="search">search</div>
 
 			<div id="chat">
 				
-				<div class="items"></div>
+				<div class="items">
+					
+					
+					
+				</div>
 				
 				<div class="items"></div>
 				

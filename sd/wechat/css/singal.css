@@ -104,3 +104,14 @@
 }
 
 /* battery : end */
+#singal_item {
+	flex: 1;
+	height: 16px;
+}
+
+.singal_items {
+	height: 16px; width: 16px;
+	background-size: contain;
+	background-position: center;
+}
+
