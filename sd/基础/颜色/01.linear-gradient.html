@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			div:nth-child(1) {
+				width: 200px;
+				height: 100px;
+				background: linear-gradient(lightblue 50%, #B89 50%);
+				background-size: 100% 100px;
+			}
+			
+			div.div-rotate {
+				width: 200px;
+				height: 100px;
+				background: repeating-linear-gradient(20deg, #09C 25px, #F90 50% );
+				
+			}
+			
+			div.chrome {
+				width: 180px;
+				height: 180px;
+				border-radius: 50%;
+				box-shadow: 0 0 10px #999, 0 0 6px #ddd inset;
+				background: 
+				radial-gradient(circle, #4FACF5 0, #2196F3 28%, transparent 28%), 
+				radial-gradient(circle, #fff 33%, transparent 33%), 
+				linear-gradient(-50deg, #FFEB3B 34%, transparent 34%), 
+				linear-gradient(60deg, #4CAF50 33%, transparent 33%), 
+				linear-gradient(180deg, #FF756B 0, #F44336 30%, transparent 30%), 
+				linear-gradient(-120deg, #FFEB3B 40%, transparent 40%), 
+				linear-gradient(-60deg, #FFEB3B 30%, transparent 30%), 
+				linear-gradient(0deg, #4CAF50 45%, transparent 45%), 
+				linear-gradient(60deg, #4CAF50 30%, transparent 30%), 
+				linear-gradient(120deg, #F44336 50%, transparent 50%), 
+				linear-gradient(180deg, #F44336 30%, transparent 30%);
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div></div>
+
+		<hr>
+
+		<div class="div-rotate"></div>
+		
+		<hr>
+		
+		<div class="chrome"></div>
+
+	</body>
+
+</html>
