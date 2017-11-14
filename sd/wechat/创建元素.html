@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			#list {
+				height: 400px;
+				width: 200px;
+				border: 1px solid red;
+			}
+			
+			.chat {
+				background-color: darkgrey;
+				margin-bottom: 10px;
+			}
+			
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div id="list">
+			
+		</div>
+		
+		<hr />
+		<input id="content" /><br>
+		<input type="button" id="btn" value="click me" />
+		
+	</body>
+</html>
+
+<script type="text/javascript" src="js/lib/jquery-2.js"></script>
+
+<script>
+	
+	$(function(){
+		
+		//为按钮注册事件
+		$("#btn").click(function(){
+			
+			var msg = $("#content").val()
+			
+			
+			var chat = $("<div class='chat'>"+msg+"</div>")
+			
+			$("#list").append(chat)
+			
+			
+		})
+		
+		
+		
+	})
+	
+</script>
