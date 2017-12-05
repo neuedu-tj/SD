@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			#d {
+				height: 100px;
+				width: 100px;
+				background-color: darkcyan;
+				margin: 10px;
+				position: relative;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<input id="btn" type="button" value="go" />
+		<hr>
+		<div id="d"></div>
+
+	</body>
+
+</html>
+
+<script type="text/javascript" src="../wechat/js/lib/jquery-2.js"></script>
+
+<script>
+	$(function() {
+
+		//		$("#btn").click(function(){
+		//			$("#d").show()
+		//			$("#d").hide(900 , function() {
+		//				alert("over.....")
+		//			})
+		//		})
+
+//		$("#btn").click(function() {
+//
+//			$("#d").toggle(800)
+//			$("#d").toggleClass()
+//
+//		})
+
+//
+//		$("#btn").click(function() {
+//			
+//
+//			$("#d").slideToggle()
+//
+//		})
+		
+		$("#btn").click(function() {
+			$("#d").animate({height:150},400);
+			$("#d").animate({left:150,top:100},400);
+		})
+	})
+</script>
+
+<!-- 事件冒泡 , 阻止默认事件  -->

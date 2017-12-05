@@ -1,0 +1,31 @@
+
+/*  chat with friend  */
+
+.chat-with-friend {
+	
+	width: 100%;
+	min-height: 440px;
+
+	background-color: #0000FF;
+}
+
+.chat-left {
+	width: 60px; height: 60px;
+	
+}
+
+.chat-right {
+	width: 44px; height: 44px;
+}
+
+
+.chat-center{
+	flex :1 ; 
+}
+
+.trangle-left {
+	
+}
+.trangle-right {
+	
+}

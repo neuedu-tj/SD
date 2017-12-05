@@ -3,6 +3,7 @@ $(function(){
 	
 //	/* 进入时加载 */	
 	$("#dynamic").load("dynamic/chat-list.html");
+	$.get("../js/router-chat.js")
 
 	//点击聊天时
 	$("#menu-chat").click(function(){
@@ -24,6 +25,9 @@ $(function(){
 //		)
 		
 	})
+	
+	
+	
 	
 
 });

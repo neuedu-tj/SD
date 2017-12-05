@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SIMPLE</title>
+		
+		<style>
+			
+			.list {
+				color: darkmagenta;
+			}
+			
+			
+		</style>
+		
+		
+	</head>
+	<body>
+		
+		<input id="name"><input type="button" id="btn" value="add" />
+		<hr />
+		
+		<ul id="u">
+			<li>java</li>
+			<li>android</li>
+			<li>ios</li>
+			<li>c#</li>
+			<li>php</li>
+		
+		</ul>
+		
+	</body>
+</html>
+
+<script>
+	
+	window.onload = function() {
+		var btn = document.getElementById('btn');
+		btn.onclick = function() {
+			var name = document.getElementById('name');
+			//创建一个 li 
+			var li = document.createElement("li")
+			
+			
+//			li.innerHTML = name.value;
+			li.appendChild(document.createTextNode("xxxx"))
+			li.className = "list"
+//			li.classList.add()
+			
+			li.onclick = function() {
+				alert(this.innerHTML)
+			}
+			
+			
+			//获取 ul
+			var u = document.getElementById("u")
+			u.appendChild(li)
+		}
+		
+	}
+	
+</script>

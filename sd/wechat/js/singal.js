@@ -1,4 +1,8 @@
 $(function() {
+	
+//	var now = new Date();
+//
+//	$("#singal_center").html(now.getHours()+" : " + now.getMinutes() )
 
 	setInterval(function() {
 		
@@ -22,5 +26,14 @@ $(function() {
 		}
 		
 		
+//		var now = new Date();
+//		
+//		$("#singal_center").html(now.getHours()+" : " + now.getMinutes() )
+		
 	}, 1000);
+	
+	
+	
+	
+	
 })

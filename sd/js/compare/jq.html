@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JQ</title>
+		
+		<style>
+			
+			.list {
+				color: darkmagenta;
+			}
+			
+			.font {
+				font-size: 28px;
+			}
+			
+			
+		</style>
+		
+		
+	</head>
+	<body>
+		
+		<input id="name"><input type="button" id="btn" value="add" />
+		<hr />
+		
+		<ul id="u">
+			<li>java</li>
+			<li>android</li>
+			<li>ios</li>
+			<li>c#</li>
+			<li>php</li>
+		
+		</ul>
+		
+	</body>
+</html>
+
+<script type="text/javascript" src="../../wechat/js/lib/jquery-2.js" ></script>
+
+<script>
+	
+$(function(){
+	
+	  $("#btn").click(function(){
+		
+	  	var li = $("<li></li>");
+	  	li.html($("#name").val())
+	  	li.addClass("list").addClass("font")
+	  	
+	  	li.click(function(){
+	  		alert($(this).html())
+	  	})
+
+	  	$("#u").append(li)
+
+	  })
+	
+})
+
+</script>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			.list {
+				color: darkcyan;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<ul id="u">
+			<li class="list">A</li>
+			<li class="list"> B</li>
+			<li id="c">C</li>
+			<li>D</li>
+			<li>E</li>
+		</ul>
+		<hr />
+
+		<input id="name" /><br>
+
+		<input type="checkbox" name="skills" value="java" />java
+		<input type="checkbox" name="skills" value="c" checked="checked" />c
+		<input type="checkbox" name="skills" value="ios" checked="checked" />ios
+
+	</body>
+
+</html>
+
+<script type="text/javascript" src="../wechat/js/lib/jquery-2.js"></script>
+
+<script>
+	$(function() {
+
+		//
+		//		console.log( $("#c").html() )
+
+		//		console.log($("#u li:first").html()) 
+
+		//		console.log($(".list").size())
+
+//		$(".list").click(function() {
+//			$(this).html(new Date())
+//		})
+
+		//获取焦点
+//		$("#name").focus();
+		//获取选中的内容
+		//	console.log($("input[type=checkbox]").size())
+		
+		//获取表单中元素
+		$("input[type=checkbox]").each( function( index , e) {
+//			console.log(index + " : " + e.value  )
+//			console.log(index + " : " + $(e).val()  )
+//			console.log(index + " : " + $(this).val()  )
+			//修改属性
+			$(this).attr("checked" , "checked")
+			
+		})
+		
+//		console.log($("input[type=checkbox]:checked").size())
+
+
+////////////////////////////////////////////////////////
+
+		//修改样式
+//		$(".list").css("color" , "red").css("font-size" , "30px")
+		//元素的内容 
+//		$(xxxx).html()
+
+		//获取高宽
+		
+
+		
+	})
+</script>
+
+:
